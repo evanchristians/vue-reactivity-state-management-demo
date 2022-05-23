@@ -7,6 +7,7 @@
  * {
  *    setMsg: (state) => (payload) => state.msg = payload;
  * }; // action
+ *
  * @param {object} actions
  * @param {object} state
  * @returns actions with state in context

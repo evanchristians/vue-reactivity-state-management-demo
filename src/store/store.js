@@ -3,17 +3,9 @@ import { readonly } from "vue";
 import { msgActions, msgState } from "./msg/msg";
 import { withState } from "./util/withState";
 
-const cartState = reactive({
-  cart: 0,
-});
-
-const otherState = {
-  count: 0,
-};
 
 const state = reactive({
-  ...cartState,
-  ...otherState,
+  count: 0,
   ...msgState,
 });
 
