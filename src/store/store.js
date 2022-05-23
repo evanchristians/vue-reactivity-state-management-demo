@@ -13,9 +13,6 @@ const actions = {
   incrementCount(num = 1) {
     state.count += num;
   },
-  incrementCart(num = 1) {
-    state.cart += num;
-  },
   ...withState(msgActions, state),
 };
 
